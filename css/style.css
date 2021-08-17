@@ -1,0 +1,411 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+a{
+	text-decoration: none;
+}
+li{
+	list-style: none;
+}
+body{
+	font-family: 'Open Sans', sans-serif;
+}
+header{
+	width: 100%;
+	background: #000;
+	display: flex;
+}
+h1{
+	font-family: 'Open Sans', sans-serif;
+	letter-spacing: 5px;
+}
+h4{
+	font-family: 'Source Serif Pro', serif;
+	letter-spacing: 5px;
+}
+}
+/*header_logo{
+	text-decoration: uppercase;
+	color:#fff;
+	font-weight: 800;
+	font-size: 24px;
+	cursor: pointer;
+	margin-top: 56px;
+	margin-left: 12%;
+}*/
+.header_logo{
+	margin-bottom: 10px;
+}
+.header_logo img{
+	position: relative;
+	width: 50px;
+	margin-left: 397px;
+	margin-top: 27px;
+}
+nav{
+	margin-top: 30px;
+	margin-left: 22%;
+}
+.topnav a{
+	color:#fff;
+	text-align: center;
+	padding: 12px 20px;
+	font-size: 20px;
+}
+.topnav{
+	font-family: 'Arsenal', sans-serif;
+	margin-bottom: 18px;
+	letter-spacing: 3px;
+}
+.topnav a:hover{
+	border-bottom: 2px solid #AE9780;
+}
+.topnav .icon{
+	display: none;
+}
+main{
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+}
+main .main_welcome {
+	/*background:#000;*/
+	text-align: center;
+	padding: 0px 0 0px 0;
+	margin-bottom: -5px;
+	width: 100%;
+}
+.main_welcome img {
+	height: 600px;
+	width: 100%;
+}
+
+
+/*вставка*/
+.container {
+    position: relative;
+    text-align: center;
+    color: #AE9780;
+
+}
+.centered {
+	font-family: 'Source Serif Pro', serif;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 65px;
+    opacity: 0.4;
+
+
+
+	opacity: 0;
+	transition: all 5s ease 0s;
+
+}
+.centered._active {
+	transform: translate(-50%, -50%);
+	opacity: 0.4;
+}
+
+/*/вставка*/
+
+
+/* Animation */
+
+.fullscreen__title {
+	transform: translate(0px, 120%);
+	opacity: 0;
+	transition: all 3s ease 0s;
+}
+.fullscreen__title._active {
+	transform: translate(0px, 0px);
+	opacity: 1;
+}
+
+/* /Animation */
+
+.proverka {
+	background: #F4F4F4;
+}
+
+
+main .main_welcome p{
+	color: #999999;
+	font-size: 20px;
+}main .main_welcome h1{
+	color: #999999;
+	font-size: 44px;
+}
+.mycompany {
+	color: #fcac45;
+}
+.wrapper {
+	width: 80%;
+	margin: 0 auto;
+}
+main .main_about{
+	display: flex;
+	padding: 50px 0 70px 0;
+}
+.about_right{
+	margin-left: 175px;
+}
+.about_right h1{
+	/*display: inline-block;*/
+	padding-bottom: 5px;
+	text-align: center;
+}
+.about_right h3{
+	
+	border-bottom: 3px solid #AE9780;
+	padding-bottom: 20px;
+	text-align: center;
+}
+.about_right p{
+	margin: 30px 0 50px 0;
+	color: black;
+	max-width: 600px
+}
+.abouttext{
+	text-align: justify;
+}
+.mw-100{
+	min-width: 100%;
+}
+.about_left{
+	margin-top: 6%;
+	margin-left: 200px;
+}
+/* ЖИЗНЬ */
+.main_life{
+	background: #122d3e;
+	text-align: center;
+	padding: 70px 0 70px 0;
+	color: #fff;
+}
+.main_life h1{
+	font-size: 40px;
+	padding-bottom: 2px;
+}
+/*.line{
+	width: 155px;
+	height: 3px;
+	background: #fcac45;
+	position: relative;
+	left: 45%;
+	margin-bottom: 85px;
+}*/
+.main_life h1:after,
+.main_work h1:after,
+.main_contacts h1:after {
+	content: "";
+	display: block;
+	margin: 0 auto;
+	width: 180px;
+	padding-top: 5px;
+	border-bottom: 2px solid #AE9780;
+	margin-bottom: 50px;
+}
+.photo{
+	background: #d7d7d7;
+	width: 125px;
+	height: 125px;
+	border-radius: 50%;
+	margin: 20px auto;
+}
+.team_cards {
+	display: flex;
+}
+.name{
+	font-size: 20px;
+	margin-bottom: 10px;
+}
+.about_position{
+	font-size: 16px;
+	text-align: justify;
+	width: 95%;
+	margin-top: 30px;
+	margin-left: 10px;
+	margin-right: 10px;
+	font-family: 'Arsenal', sans-serif;
+}
+
+.card{
+	margin: 0 5px;
+	width: 500px;
+}
+/* ЖИЗНЬ */ 
+
+
+
+/* ГАЛЕРЕЯ */
+.main_work {
+	text-align: center;
+	padding: 100px 0 100px 0;
+}
+.main_work h1 {
+	margin-bottom: 30px;
+
+}
+.line1 {
+	display: flex;
+}
+.line2 {
+	display: flex;
+}
+.line3 {
+	display: flex;
+}
+.line4 {
+	display: flex;
+}
+.lineleft {
+	margin-left: 12%;
+	margin-bottom: 30px;
+}
+.lineright {
+	margin-left: 10%;
+	margin-right: 20%;
+	margin-bottom: 30px;
+}
+.gallery p {
+	padding-top: 7px;
+}
+
+
+
+
+
+/* /ГАЛЕРЕЯ */
+
+/* Контакты */
+.main_contacts {
+	background: #122d3e;
+	text-align: center;
+	color: #fff;
+	padding-bottom: 20px;
+}
+.main_contacts h1{
+	margin-top: 40px;
+	margin-bottom: 5px;
+}
+.main_contacts p {
+	margin-bottom: 15px;
+}
+.last_contact {
+	padding-bottom: 15px;
+}
+.main_work img:hover {
+	opacity: 0.95;
+}
+
+.tablica td{
+	font-size: 15px;
+	padding-left: 85px;
+	letter-spacing: 2px;
+
+}
+.tablica td:hover{
+	color: yellow;
+}
+
+/* Контакты */
+
+@media screen and (max-width: 1200px) {
+	nav{
+		margin-left: 20%;
+	}
+}
+@media screen and (max-width: 1105px) {
+	nav{
+		margin-left: 10%;
+	}
+}
+@media screen and (max-width: 1010px) {
+	.topnav a{
+		display: none;
+	}
+	.topnav a.icon{
+		float: right;
+		margin-top: -17px;
+		display: block;
+		color: #fff;
+		font-size: 25px;
+	}
+	nav{
+		width: 100%;
+	}
+	.topnav.responsive{
+		position: relative;
+		top: 50px;
+		left: -200px;
+	}
+	header .topnav.responsive{
+		height: 340px;
+	}
+	.topnav.responsive a.icon{
+		position: absolute;
+		top: -50px;
+		right: -200px;
+	}
+	.topnav.responsive a{
+		float: none;
+		display: block;
+		text-align: left;
+	}
+
+
+	main .main_welcome{
+		 padding: 50px 0 50px 0;
+	}
+	main .main_welcome p{
+		font-size: 14px;
+	}
+	main .main_welcome h1{
+		font-size: 25px;
+	}
+	.mw-100{
+	max-width: 100%;
+	}
+	.main_about{
+		flex-direction: column;
+	}
+	.about_right {
+		text-align: center;
+		margin-left: 0;
+	}
+	.about_right h1 {
+		font-size: 20px;
+		margin-top: 10px;
+	}
+	.about_right h3 {
+		font-size: 17px;
+		margin-top: 5px;
+	}
+	
+
+	/*вестаю сам*/
+	.team_cards {
+		flex-direction: column;
+	}
+	.line1{
+		flex-direction: column;
+	}
+	.line2{
+		flex-direction: column;
+	}
+	.line3{
+		flex-direction: column;
+	}
+	.line4{
+		flex-direction: column;
+	}
+	/*вестаю сам*/
+
+}
+
+
+
+
